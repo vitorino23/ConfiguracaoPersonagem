@@ -75,12 +75,20 @@
                 android:layout_height="wrap_content"
                 android:entries="@array/classes"/>
 
+            <ImageView
+                android:src="@drawable/anao"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_gravity="center"
+                android:id="@+id/ivClasse"/>
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/label_forca"/>
 
             <TextView
+                android:id="@+id/tvForca"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="right"
